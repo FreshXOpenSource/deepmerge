@@ -19,9 +19,9 @@ return function deepmerge(target, src) {
             if (typeof dst[i] === 'undefined') {
                 dst[i] = e;
             } else if (typeof e === 'object') {
-                dst[i] = deepmerge(target[i], e);
+                dst[i] = deepmerge(dst[i], e);
             } else {
-                if (target.indexOf(e) === -1) {
+                if (dst.indexOf(e) === -1) {
                     dst.push(e);
                 }
             }
