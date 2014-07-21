@@ -1,7 +1,7 @@
 {
   "name": "deepmerge",
   "main": "index.js",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "homepage": "https://github.com/nrf110/deepmerge",
   "authors": [
     "Nicholas Fisher <nfisher110@gmail.com>"
